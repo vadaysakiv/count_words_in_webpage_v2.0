@@ -4,7 +4,7 @@ import re
 from bs4 import BeautifulSoup
 
 
-PageURL = 'http://x.x.x.x:yyyy'# enter the url which you want to try on
+PageURL = 'http://x.x.x.x:zzzz'# enter the url which you want to try on
 
 def get_html_of(url):
     resp = requests.get(url)
